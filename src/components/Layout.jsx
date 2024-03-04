@@ -8,7 +8,7 @@ const Layout = () => {
     <div className="bg-[#0a0a0a] w-screen min-h-screen">
       <nav className=" max-w-4xl w-full flex flex-col lg:flex-row justify-between items-center pt-10 px-4 mx-auto mb-0 lg:mb-20 bg-[#0a0a0a]">
         <div className="bg-gradient-to-r from-red-900 w-fit p-2 rounded-md mr-auto">
-          <Link to={"/home"}>
+          <Link to={"/"}>
             <h1 className="text-white text-4xl lg:text-6xl font-outfit bg-[#0a0a0a] p-3 rounded-[4px]">
               Notes Manager
             </h1>
